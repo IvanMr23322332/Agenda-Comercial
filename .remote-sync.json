@@ -1,0 +1,19 @@
+{
+  "logger": {
+    "title": "Remote Sync"
+  },
+  "uploadOnSave": false,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "10.101.10.50",
+  "port": "22",
+  "target": "/var/www/html/agenda-comercial",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "joaquin",
+  "password": "thegodfather1972",
+  "watch": [],
+  "transport": "scp"
+}
